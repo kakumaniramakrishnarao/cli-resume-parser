@@ -2,7 +2,16 @@
 
 > A command-line tool that parses resumes into structured JSON, matches them against job descriptions, and lets you chat with your resume as a career advisor — all powered by Google Gemini.
 
-[Insert a terminal screenshot or asciinema GIF here]
+## 📸 Demo
+
+### Parse
+![Parse](docs/ss1.png)
+
+### Match
+![Match](docs/ss2.png)
+
+### Chat
+![Chat](docs/ss3.png)
 
 ## Why I built this
 
@@ -31,7 +40,7 @@ The tool has already given me feedback I'd otherwise have paid a recruiter for. 
 
 ## Architecture
 
-\`\`\`
+```
 ┌──────────────┐
 │   cli.js     │  Commander entry point, flag parsing
 └──────┬───────┘
@@ -50,7 +59,7 @@ The tool has already given me feedback I'd otherwise have paid a recruiter for. 
 │  ├ pricing   │────▶│  Cost tracker  │
 │  └ cost...   │     └────────────────┘
 └──────────────┘
-\`\`\`
+```
 
 Key design decisions:
 - **JSON schema for Gemini, Zod for validation.** Gemini rejects schemas with `$ref`, so the request schema is hand-written. Zod validates the response separately at runtime — a defense-in-depth boundary.
@@ -60,7 +69,7 @@ Key design decisions:
 ## Setup
 
 \`\`\`bash
-git clone https://github.com/<your-username>/cli-resume-parser.git
+git clone https://github.com/kakumaniramakrishnarao/cli-resume-parser.git
 cd cli-resume-parser
 npm install
 cp .env.example .env
@@ -74,20 +83,16 @@ cp .env.example .env
 node src/cli.js parse samples/sample-resume.txt
 
 # Match against a job description
-node src/cli.js match output/parsed-<name>.json samples/jd-sample.txt
+node src/cli.js match output/parsed-john-doe.json samples/jd-sample.txt
 
 # Chat with your resume
-node src/cli.js chat output/parsed-<name>.json
+node src/cli.js chat output/parsed-john-doe.json
 
 # Use a different model
 node src/cli.js parse samples/sample-resume.txt --model gemini-2.5-pro
 \`\`\`
 
 In chat mode, type `/help` to see commands (`/tokens`, `/history`, `/reset`, `/exit`).
-
-## Example output
-
-[Paste a real (sanitized) parse output here — 20-30 lines of the JSON. Pick the cleanest one.]
 
 ## Cost analysis
 
@@ -120,16 +125,6 @@ The model selection per command is deliberate: parse and chat run on Flash becau
 - Replace JSON schema duplication with `zod-to-json-schema` and a custom transformer that strips `$ref` for Gemini compatibility.
 - Add a `--batch` mode for parsing/matching against a folder of resumes.
 
-## 📸 Demo
-
-### Parse
-![Parse](Docs/ss1.png)
-
-### Match
-![Match](Docs/ss2.png)
-
-### Chat
-![Chat](Docs/ss3.png)
 
 ## License
 
