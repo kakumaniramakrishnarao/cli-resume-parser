@@ -1,16 +1,16 @@
 # AI Resume Parser CLI
 
-> A command-line tool that parses resumes into structured JSON, matches them against job descriptions, and lets you chat with your resume as a career advisor — all powered by Google Gemini.
+> 🚀 AI-powered CLI that parses resumes, matches them to job descriptions, and lets you chat with your resume — built to solve real job search problems using LLMs.
 
 ## 📸 Demo
 
-### Parse
+### 📄 Resume Parsing
 ![Parse](docs/ss1.png)
 
-### Match
+### 🎯 Job Matching
 ![Match](docs/ss2.png)
 
-### Chat
+### 💬 Chat Interface
 ![Chat](docs/ss3.png)
 
 ## Why I built this
@@ -66,19 +66,21 @@ Key design decisions:
 - **Single retry chokepoint.** All API calls go through `withRetry` in `lib/gemini.js`, so retry policy is centralized. Adding a new endpoint can never accidentally bypass retries.
 - **System instruction holds the resume.** In chat mode, the resume sits in `systemInstruction` (not history), so it persists across turns at no incremental cost and survives sliding-window truncation.
 
-## Setup
+## ⚡ Quick Start
 
-\`\`\`bash
+```bash
 git clone https://github.com/kakumaniramakrishnarao/cli-resume-parser.git
 cd cli-resume-parser
 npm install
 cp .env.example .env
-# Add your GOOGLE_API_KEY to .env (free tier works — get one at https://ai.google.dev)
-\`\`\`
+# Add GOOGLE_API_KEY
+
+node src/cli.js parse samples/sample-resume.txt
+```
 
 ## Usage
 
-\`\`\`bash
+```bash
 # Parse a resume
 node src/cli.js parse samples/sample-resume.txt
 
@@ -90,7 +92,7 @@ node src/cli.js chat output/parsed-john-doe.json
 
 # Use a different model
 node src/cli.js parse samples/sample-resume.txt --model gemini-2.5-pro
-\`\`\`
+```
 
 In chat mode, type `/help` to see commands (`/tokens`, `/history`, `/reset`, `/exit`).
 
