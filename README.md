@@ -1,6 +1,6 @@
 # AI Resume Parser CLI
 
-> 🚀 AI-powered CLI that parses resumes, matches them to job descriptions, and lets you chat with your resume — built to solve real job search problems using LLMs.
+> 🚀 AI-powered CLI that parses resumes, matches them to job descriptions, and lets you chat with your resume built to solve real job search problems using LLMs.
 
 ## 📸 Demo
 
