@@ -1,0 +1,82 @@
+**Job Title:** Full-Stack AI Engineer
+**Location:** Remote (U.S. or India preferred)
+**Company:** NovaScale Technologies
+
+---
+
+## About Us
+
+NovaScale Technologies is building intelligent SaaS platforms that combine modern full-stack engineering with cutting-edge AI capabilities. Our mission is to help businesses automate workflows, extract insights from unstructured data, and build smarter applications.
+
+---
+
+## Role Overview
+
+We are looking for a Full-Stack AI Engineer who can design, build, and deploy scalable web applications integrated with AI/ML systems. You will work across the stack—from frontend interfaces to backend APIs and AI pipelines—delivering production-grade features.
+
+---
+
+## Responsibilities
+
+### Full-Stack Development
+
+* Build and maintain web applications using modern frameworks (React, Next.js)
+* Develop backend services and APIs using Node.js, Python, or similar
+* Design and optimize database schemas (PostgreSQL, MongoDB)
+* Ensure performance, scalability, and security of applications
+
+### AI / Machine Learning Integration
+
+* Integrate LLM APIs (e.g., OpenAI, Gemini) into applications
+* Build prompt engineering workflows and structured output pipelines
+* Develop data processing pipelines for unstructured data (PDFs, text, etc.)
+* Implement vector search systems (FAISS, Pinecone, Weaviate)
+
+### System Design & DevOps
+
+* Architect scalable systems for AI-powered applications
+* Deploy services using Docker, Kubernetes, and cloud platforms (AWS/GCP/Azure)
+* Implement CI/CD pipelines and monitoring
+
+---
+
+## Required Qualifications
+
+* 2–5 years of experience in software engineering
+* Strong proficiency in JavaScript/TypeScript
+* Experience with React and Node.js
+* Familiarity with REST APIs and microservices architecture
+* Basic understanding of machine learning concepts
+
+---
+
+## Preferred Qualifications
+
+* Experience working with LLMs and prompt engineering
+* Knowledge of vector databases and embeddings
+* Experience with Python (for ML workflows)
+* Familiarity with tools like LangChain, LlamaIndex
+* Experience building or deploying AI-powered applications
+
+---
+
+## Nice to Have
+
+* Experience with resume parsers, document processing, or RAG systems
+* Contributions to open-source projects
+* Experience with real-time streaming or event-driven systems
+
+---
+
+## Compensation & Benefits
+
+* Competitive salary ($80,000 – $140,000 depending on experience)
+* Remote-first culture
+* Learning stipend for AI/ML tools and courses
+* Health insurance and flexible PTO
+
+---
+
+## How to Apply
+
+Submit your resume and a brief note describing your experience with AI-powered applications. Include links to GitHub or projects if available.

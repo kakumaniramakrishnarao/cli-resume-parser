@@ -1,0 +1,84 @@
+**John Doe**
+San Francisco, CA
+[john.doe@email.com](mailto:john.doe@email.com) | +1-555-123-4567
+https://github.com/johndoe | https://linkedin.com/in/johndoe
+
+---
+
+## Summary
+
+Full-Stack Software Engineer with 3+ years of experience building scalable web applications and integrating AI/ML systems. Skilled in JavaScript/TypeScript, React, Node.js, and modern cloud platforms. Strong experience working with LLM APIs, building data pipelines, and deploying production-ready AI-powered features.
+
+---
+
+## Technical Skills
+
+**Languages:** JavaScript, TypeScript, Python, SQL
+**Frameworks:** React, Next.js, Express.js, FastAPI
+**Databases:** PostgreSQL, MongoDB, Redis
+**AI/ML:** OpenAI API, Gemini API, LangChain, Vector Databases (Pinecone, FAISS)
+**Tools:** Docker, Kubernetes, Git, CI/CD, AWS, GCP
+**Other:** REST APIs, GraphQL, Microservices, System Design
+
+---
+
+## Experience
+
+**Full-Stack AI Engineer**
+NovaScale Technologies — Remote
+Jan 2023 – Present
+
+* Built AI-powered resume parsing system using LLMs, improving data extraction accuracy by 40%
+* Developed full-stack web applications using React, Next.js, and Node.js
+* Integrated OpenAI and Gemini APIs for intelligent document processing
+* Designed scalable backend services and REST APIs handling 50k+ requests/day
+* Implemented vector search using Pinecone for semantic retrieval
+* Deployed applications using Docker and AWS with CI/CD pipelines
+
+---
+
+**Software Engineer**
+TechWave Solutions — Bangalore, India
+Jun 2021 – Dec 2022
+
+* Developed responsive frontend applications using React and Redux
+* Built backend APIs using Node.js and Express
+* Optimized database queries in PostgreSQL, reducing response time by 30%
+* Collaborated with cross-functional teams to deliver production features
+
+---
+
+## Projects
+
+**AI Resume Parser**
+
+* Built a CLI tool to parse resumes into structured JSON using Gemini API
+* Implemented schema validation using Zod
+* Added streaming responses and cost tracking
+
+**RAG-based Q&A System**
+
+* Built a Retrieval-Augmented Generation system using LangChain and FAISS
+* Enabled semantic search over documents with vector embeddings
+
+---
+
+## Education
+
+**Bachelor of Technology in Computer Science**
+XYZ University
+2017 – 2021
+
+---
+
+## Certifications
+
+* AWS Certified Cloud Practitioner
+* Machine Learning Specialization (Coursera)
+
+---
+
+## Additional Information
+
+* Open-source contributor on GitHub
+* Strong interest in AI systems and scalable architectures
