@@ -120,6 +120,17 @@ The model selection per command is deliberate: parse and chat run on Flash becau
 - Replace JSON schema duplication with `zod-to-json-schema` and a custom transformer that strips `$ref` for Gemini compatibility.
 - Add a `--batch` mode for parsing/matching against a folder of resumes.
 
+## 📸 Demo
+
+### Parse
+![Parse](Docs/ss1.png)
+
+### Match
+![Match](Docs/ss2.png)
+
+### Chat
+![Chat](Docs/ss3.png)
+
 ## License
 
 MIT
